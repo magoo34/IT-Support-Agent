@@ -1,6 +1,10 @@
 from agent.llm import LLMClient
 from agent.workflows import WorkflowEngine
 from agent.kb import KnowledgeBase
+from agent.network import NetworkModule
+from agent.account import AccountModule
+from agent.device import DeviceModule
+from agent.ticket import TicketSystem
 
 class SupportAgentEngine:
     def __init__(self):
