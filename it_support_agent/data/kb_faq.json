@@ -1,0 +1,10 @@
+[
+  {
+    "q": "wifi not working",
+    "a": "Try restarting your router and checking if other devices can connect."
+  },
+  {
+    "q": "password reset",
+    "a": "Use the password reset portal or contact IT support to reset your password."
+  }
+]

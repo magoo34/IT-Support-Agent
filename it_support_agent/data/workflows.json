@@ -1,0 +1,20 @@
+[
+  {
+    "pattern": "vpn",
+    "workflow": "VPN Connectivity Workflow",
+    "steps": [
+      "Check network",
+      "Verify credentials",
+      "Restart VPN service"
+    ]
+  },
+  {
+    "pattern": "wifi",
+    "workflow": "Wi-Fi Connectivity Workflow",
+    "steps": [
+      "Check adapter",
+      "Renew IP",
+      "Reboot AP"
+    ]
+  }
+]
