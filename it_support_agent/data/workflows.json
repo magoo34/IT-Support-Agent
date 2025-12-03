@@ -3,18 +3,132 @@
     "pattern": "vpn",
     "workflow": "VPN Connectivity Workflow",
     "steps": [
-      "Check network",
-      "Verify credentials",
-      "Restart VPN service"
+      "Check network connection",
+      "Verify VPN credentials",
+      "Restart VPN client",
+      "Check firewall rules",
+      "Reinstall VPN software if needed"
     ]
   },
   {
     "pattern": "wifi",
     "workflow": "Wi-Fi Connectivity Workflow",
     "steps": [
-      "Check adapter",
-      "Renew IP",
-      "Reboot AP"
+      "Check wireless adapter status",
+      "Reconnect to the network",
+      "Renew IP address",
+      "Restart access point",
+      "Update Wi-Fi drivers"
+    ]
+  },
+  {
+    "pattern": "email",
+    "workflow": "Email Access Workflow",
+    "steps": [
+      "Verify username and password",
+      "Check internet connectivity",
+      "Confirm mail server settings",
+      "Clear mail cache",
+      "Test login via webmail"
+    ]
+  },
+  {
+    "pattern": "slow computer",
+    "workflow": "System Performance Workflow",
+    "steps": [
+      "Check CPU and memory usage",
+      "Close unnecessary applications",
+      "Scan for malware",
+      "Clean temporary files",
+      "Restart system"
+    ]
+  },
+  {
+    "pattern": "printer",
+    "workflow": "Printer Troubleshooting Workflow",
+    "steps": [
+      "Check printer power and cables",
+      "Ensure correct printer selection",
+      "Restart print spooler service",
+      "Reinstall printer drivers",
+      "Print test page"
+    ]
+  },
+  {
+    "pattern": "login",
+    "workflow": "User Access Workflow",
+    "steps": [
+      "Verify account credentials",
+      "Check account status",
+      "Reset password if required",
+      "Unlock account if locked",
+      "Verify authentication service availability"
+    ]
+  },
+  {
+    "pattern": "software install",
+    "workflow": "Software Installation Workflow",
+    "steps": [
+      "Verify user permissions",
+      "Check disk space",
+      "Run installer as administrator",
+      "Disable antivirus temporarily if blocking",
+      "Review install logs"
+    ]
+  },
+  {
+    "pattern": "blue screen",
+    "workflow": "System Crash Workflow",
+    "steps": [
+      "Restart computer",
+      "Check recent software changes",
+      "Run system diagnostics",
+      "Check hardware drivers",
+      "Restore from backup if necessary"
+    ]
+  },
+  {
+    "pattern": "no internet",
+    "workflow": "Internet Outage Workflow",
+    "steps": [
+      "Check modem and router",
+      "Run network diagnostics",
+      "Flush DNS",
+      "Renew IP lease",
+      "Contact ISP if unresolved"
+    ]
+  },
+  {
+    "pattern": "file missing",
+    "workflow": "File Recovery Workflow",
+    "steps": [
+      "Check recycle bin",
+      "Search local system",
+      "Restore from backup",
+      "Check file permissions",
+      "Escalate to IT if not found"
+    ]
+  },
+  {
+    "pattern": "device not detected",
+    "workflow": "Hardware Detection Workflow",
+    "steps": [
+      "Reconnect device",
+      "Test with another port",
+      "Install correct drivers",
+      "Restart system",
+      "Replace hardware if faulty"
+    ]
+  },
+  {
+    "pattern": "update failed",
+    "workflow": "System Update Workflow",
+    "steps": [
+      "Check internet connection",
+      "Restart update service",
+      "Clear update cache",
+      "Retry update",
+      "Download manually if necessary"
     ]
   }
 ]
